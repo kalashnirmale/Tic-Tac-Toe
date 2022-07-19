@@ -106,13 +106,13 @@ int main()
 
 		result =checkwin();
 		if (result == 1 )
-		{	cout<<"\n Congratualtions! player " << player1 << " has Won ";
+		{	cout<<"\n Player " << player1 << " has Won. Congratualtions!  ";
 			flag = 1;
 			break;
 		}
 		else
 		if (result == 2 )
-		{	cout<<"\n Congratualtions! player " << player2 << " has Won ";
+		{	cout<<"\n Player " << player2 << " has Won. Congratualtions!  ";
 			flag = 1;
 			break;
 		}
@@ -124,7 +124,7 @@ int main()
 
 		result =checkwin();
 		if (result == 1 )
-		{	cout<<"\n Congratualtions! player " << player1 << " has Won ";
+		{	cout<<"\n Player " << player1 << " has Won. Congratualtions!  ";
 			flag = 1;
 			break;
 		}
@@ -136,7 +136,7 @@ int main()
 		}
 }
 		if (flag == 0 )
-		cout<<" \n The game is a draw ";
+		cout<<" \ Game Draw ";
 
 	return 0;
 }
